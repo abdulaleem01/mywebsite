@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+{% extends "basic_app/base.html" %}
+{% block body_block %}
+{% load static %}
+    <div class="container">
+    <div class="row">
+    <div class="col-6">
+    <div class="container0">
+        
+        <img src="{% static "images/img1.jpg" %}" alt="Avatar" class="image">
+        <a class="" href="{%url 'pp:photography' %}">
+        <div class="overlay">
+          <div class="text link1">PHOTOGRAPHY</div>
+        </div>
+    </a>
+      </div>
+      </div>
+      <div class="col-6">
+        <div class="container11">
+            <div></div>
+            <img src= "{% static "images/img2.JPG" %}" alt="Avatar" class="image">
+            <a class="" href="{%url 'pp:website' %}">
+            <div class="overlay1">
+              <div class="text link1">WEBSITES</div>
+            </div>
+        </a>
+          </div>
+          </div>
+      </div>
+      </div>
+      <p class="blank">thank you</p>
+<p class="blank">thankyou</p>
+<p class="blank">thank yout</p>
+      
+      {% endblock %}
+
